@@ -82,17 +82,21 @@ func main() {
 	// fmt.Scanf("%s", &username)
 	// fmt.Println("Hey there, ", username)
 
+	//++++++++++++++++++++++++++++
 	//INPUT ERROR HANDLING
+	//++++++++++++++++++++++++++++
 	// var a string
-  //   var b int
-  //   fmt.Print("Enter a string and a number: ")
-  //   count, err := fmt.Scanf("%s %d", &a, &b)
-  //   fmt.Println("count:", count)
-  //   fmt.Println("error:", err)
-  //   fmt.Println("a:", a)
-  //   fmt.Println("b:", b)
+    // var b int
+    // fmt.Print("Enter a string and a number: ")
+    // count, err := fmt.Scanf("%s %d", &a, &b)
+    // fmt.Println("count:", count)
+    // fmt.Println("error:", err)
+    // fmt.Println("a:", a)
+    // fmt.Println("b:", b)
 
-  // TYPE OF DATA VARIABLE
+	//+++++++++++++++++++++++++++++
+  	// TYPE OF DATA VARIABLE
+	//+++++++++++++++++++++++++++++
 	// var grades int = 42
   //   var message string = "hello world"
   //   var isCheck bool = true
@@ -117,5 +121,10 @@ func main() {
 
 	var in int = 42
     var s string = strconv.Itoa(in) // convert int to string
-    fmt.Printf("%q", s)
+    fmt.Printf("%q", s) // "42"
+	
+	var stt string = "200"
+    itt, err := strconv.Atoi(stt)
+    fmt.Printf("%v, %T \n", itt, itt)
+    fmt.Printf("%v, %T", err, err)
 }

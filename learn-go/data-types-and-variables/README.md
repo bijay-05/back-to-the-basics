@@ -113,3 +113,5 @@ Go’s built-in package, strconv, makes it easy to convert between strings and i
 
 - `Itoa`: Converts an integer to a string
 - `Atoi`: Converts a string to an integer and returns both the integer value and an error if the conversion fails.
+
+To convert a string to an integer, use the Atoi function, which returns both the converted integer and an error value. When the string represents a valid integer, the error will be nil.
