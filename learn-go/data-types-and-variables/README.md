@@ -115,3 +115,27 @@ Go’s built-in package, strconv, makes it easy to convert between strings and i
 - `Atoi`: Converts a string to an integer and returns both the integer value and an error if the conversion fails.
 
 To convert a string to an integer, use the Atoi function, which returns both the converted integer and an error value. When the string represents a valid integer, the error will be nil.
+
+```go
+var stt string = "200"
+itt, err := strconv.Atoi(stt)
+```
+
+## Constants
+
+We explore how constants work in Go. Constants in Go are similar to variables, except that their values, once assigned, cannot be modified. Understanding constants is essential for writing efficient and error-free Go code.
+
+There are two main types of constants in Go:
+
+- **Untyped Constants** : These are flexible and do not have a fixed data type unless explicitly defined.
+- **Typed Constants** : These require a specific data type, offering stronger type checking.
+
+> [!Caution]
+> Once set, constant values in Go are immutable. Modifying a constant will result in a compile-time error.
+
+### Declaration Requirements of Constants
+
+Constants must be initialized at the time of their declaration. Declaring a constant without an initial value will produce an error.
+
+> [!Important]
+> Remember: Constants in Go must be assigned a value at the time of declaration, and the shorthand := is not permitted.

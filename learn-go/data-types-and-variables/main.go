@@ -127,4 +127,12 @@ func main() {
     itt, err := strconv.Atoi(stt)
     fmt.Printf("%v, %T \n", itt, itt)
     fmt.Printf("%v, %T", err, err)
+
+	//++++++++++++++++++++++++++++++
+	// CONSTANTS
+	//++++++++++++++++++++++++++++++
+	const named = "Harry Potter"
+    //named = "Hermione Granger" // This will throw compile time error
+    fmt.Printf("%v: %T \n", named, named)
+
 }
