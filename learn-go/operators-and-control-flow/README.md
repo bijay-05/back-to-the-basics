@@ -33,11 +33,11 @@ Operators are symbols used to represent mathematical and logical computations. I
 
 - **Logical Operators**: Evaluate boolean expressions and combine conditions
 
-| Operation | Symbol | Remarks                                                        |
-| --------- | ------ | -------------------------------------------------------------- | --- | ------------------------------------------------------ |
-| AND       | `&&`   | Returns true only when both conditions are true                |
-| OR        | `      |                                                                | `   | Returns true when either one of the conditions is true |
-| NOT       | `!`    | Unary operator that inverts the boolean value of an expression |
+| Operation | Symbol  | Remarks                                                        |
+| --------- | ------- | -------------------------------------------------------------- |
+| AND       | `&&`    | Returns true only when both conditions are true                |
+| OR        | `\|\| ` | Returns true when either one of the conditions is true         |
+| NOT       | `!`     | Unary operator that inverts the boolean value of an expression |
 
 - **Bitwise Operators** : Operate on binary representations of numbers, useful for low-level programming.
 
